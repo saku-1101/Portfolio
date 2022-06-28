@@ -1,0 +1,213 @@
+/* Roboto regular */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/montserrat-variablefont_wght-webfont.woff2") format('woff2'),
+       url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='720' height='1280' preserveAspectRatio='none' viewBox='0 0 720 1280'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1049%26quot%3b)' fill='none'%3e%3cpath d='M344.917%2c243.475C398.322%2c245.63%2c443.304%2c207.875%2c470.176%2c161.674C497.219%2c115.179%2c508.61%2c56.906%2c479.877%2c11.436C452.54%2c-31.825%2c396.079%2c-37.651%2c344.917%2c-36.55C296.253%2c-35.503%2c243.975%2c-25.128%2c219.654%2c17.035C195.345%2c59.177%2c212.476%2c109.653%2c236.026%2c152.224C260.595%2c196.638%2c294.201%2c241.428%2c344.917%2c243.475' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M67.105%2c598.971C90.623%2c599.132%2c115.955%2c593.93%2c127.875%2c573.655C139.914%2c553.177%2c132.977%2c527.967%2c120.861%2c507.534C109.035%2c487.589%2c90.275%2c472.066%2c67.105%2c471.167C42.373%2c470.208%2c18.083%2c481.687%2c5.606%2c503.063C-6.966%2c524.6%2c-5.698%2c551.839%2c7.763%2c572.832C20.268%2c592.334%2c43.939%2c598.812%2c67.105%2c598.971' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M478.714%2c954.453C514.573%2c955.625%2c550.544%2c943.11%2c570.235%2c913.118C591.925%2c880.081%2c599.04%2c836.423%2c578.287%2c802.789C558.293%2c770.385%2c516.787%2c765.26%2c478.714%2c764.792C439.489%2c764.31%2c394.305%2c766.248%2c374.808%2c800.288C355.375%2c834.217%2c375.147%2c875.033%2c397%2c907.456C415.823%2c935.383%2c445.054%2c953.353%2c478.714%2c954.453' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M450.593%2c1433.648C513.888%2c1435.364%2c574.55%2c1404.361%2c606.756%2c1349.845C639.504%2c1294.413%2c639.588%2c1224.902%2c606.563%2c1169.634C574.344%2c1115.716%2c513.384%2c1086.922%2c450.593%2c1088.505C390.523%2c1090.019%2c337.082%2c1124.769%2c307.669%2c1177.167C278.885%2c1228.445%2c279.81%2c1290.392%2c308.434%2c1341.759C337.872%2c1394.586%2c390.14%2c1432.009%2c450.593%2c1433.648' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M75.167%2c347.839C119.233%2c349.922%2c166.967%2c342.869%2c191.386%2c306.128C218.054%2c266.003%2c216.814%2c212.88%2c192.513%2c171.279C168.417%2c130.029%2c122.83%2c103.944%2c75.167%2c107.171C31.904%2c110.1%2c2.53%2c147.066%2c-17.548%2c185.5C-35.849%2c220.533%2c-43.066%2c261.651%2c-23.464%2c295.973C-3.72%2c330.544%2c35.399%2c345.959%2c75.167%2c347.839' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M0.397%2c97.805C28.605%2c99.401%2c55.099%2c80.656%2c66.875%2c54.974C77.217%2c32.42%2c63.616%2c8.743%2c51.043%2c-12.647C38.72%2c-33.612%2c24.703%2c-57.367%2c0.397%2c-58.125C-24.751%2c-58.909%2c-44.527%2c-38.361%2c-56.028%2c-15.984C-66.502%2c4.394%2c-64.39%2c27.594%2c-54.211%2c48.121C-42.493%2c71.751%2c-25.937%2c96.315%2c0.397%2c97.805' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-24.983%2c89.677C0.169%2c90.528%2c22.557%2c76.139%2c36.401%2c55.123C52.019%2c31.413%2c63.679%2c1.277%2c49.421%2c-23.275C35.201%2c-47.761%2c3.31%2c-51.73%2c-24.983%2c-50.58C-50.876%2c-49.527%2c-77.351%2c-40.46%2c-89.599%2c-17.623C-101.343%2c4.273%2c-92.388%2c29.914%2c-79.57%2c51.199C-67.261%2c71.639%2c-48.829%2c88.87%2c-24.983%2c89.677' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M4.063%2c505.821C43.775%2c505.714%2c85.109%2c494.317%2c105.424%2c460.194C126.126%2c425.42%2c118.7%2c382.219%2c98.54%2c347.128C78.295%2c311.888%2c44.684%2c285.078%2c4.063%2c283.76C-38.804%2c282.37%2c-80.194%2c303.502%2c-101.66%2c340.634C-123.145%2c377.8%2c-121.394%2c424.589%2c-98.252%2c460.746C-76.719%2c494.389%2c-35.881%2c505.929%2c4.063%2c505.821' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M77.855%2c1012.897C127.814%2c1012.14%2c181.717%2c1003.436%2c207.601%2c960.698C234.197%2c916.784%2c223.517%2c860.934%2c196.23%2c817.446C170.72%2c776.789%2c125.782%2c756.51%2c77.855%2c753.913C23.921%2c750.991%2c-35.647%2c757.973%2c-65.039%2c803.289C-96.448%2c851.716%2c-91.394%2c917.041%2c-58.881%2c964.734C-29.707%2c1007.529%2c26.068%2c1013.681%2c77.855%2c1012.897' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M300.07%2c738.381C340.845%2c739.021%2c376.303%2c715.48%2c399.145%2c681.697C425.749%2c642.35%2c450.038%2c592.757%2c426.38%2c551.571C402.673%2c510.3%2c347.534%2c505.694%2c300.07%2c509.221C259.47%2c512.238%2c222.29%2c532.587%2c202.568%2c568.203C183.439%2c602.748%2c186.606%2c644.407%2c206.237%2c678.67C225.99%2c713.147%2c260.34%2c737.758%2c300.07%2c738.381' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M676.363%2c1445.511C742.582%2c1446.611%2c814.709%2c1437.539%2c850.438%2c1381.775C888.417%2c1322.499%2c882.672%2c1243.259%2c843.37%2c1184.852C807.855%2c1132.073%2c739.96%2c1124.657%2c676.363%2c1123.082C608.656%2c1121.405%2c531.274%2c1119.407%2c494.388%2c1176.209C455.333%2c1236.352%2c471.876%2c1316.737%2c512.026%2c1376.154C547.706%2c1428.956%2c612.645%2c1444.453%2c676.363%2c1445.511' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M496.537%2c798.053C570.891%2c801.871%2c633.631%2c748.333%2c670.855%2c683.854C708.076%2c619.38%2c719.042%2c540.707%2c682.573%2c475.804C645.427%2c409.697%2c572.29%2c370.222%2c496.537%2c373.627C425.888%2c376.803%2c368.821%2c427.976%2c337.375%2c491.32C309.32%2c547.833%2c321.631%2c611.413%2c350.69%2c667.416C382.908%2c729.507%2c426.677%2c794.466%2c496.537%2c798.053' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M471.456%2c370.052C526.174%2c369.457%2c572.138%2c331.202%2c597.157%2c282.536C620.093%2c237.922%2c611.218%2c187.113%2c588.498%2c142.388C562.806%2c91.812%2c527.979%2c39.901%2c471.456%2c35.085C407.908%2c29.67%2c343.381%2c62.442%2c313.885%2c118.989C286.041%2c172.369%2c308.925%2c234.328%2c340.929%2c285.322C370.483%2c332.412%2c415.863%2c370.657%2c471.456%2c370.052' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M142.168%2c1199.225C210.67%2c1194.319%2c258.13%2c1139.706%2c293.72%2c1080.97C331.164%2c1019.174%2c370.208%2c945.245%2c333.922%2c882.762C297.722%2c820.428%2c214.209%2c817.553%2c142.168%2c820.003C75.675%2c822.264%2c9.182%2c840.078%2c-28.251%2c895.08C-70.873%2c957.706%2c-89.335%2c1039.663%2c-52.305%2c1105.75C-14.623%2c1173.001%2c65.277%2c1204.731%2c142.168%2c1199.225' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M18.34%2c774.749C38.498%2c774.229%2c53.635%2c758.881%2c64.019%2c741.595C74.815%2c723.622%2c83.646%2c701.726%2c73.084%2c683.615C62.572%2c665.59%2c39.113%2c661.299%2c18.34%2c663.266C0.91%2c664.917%2c-11.768%2c677.632%2c-20.975%2c692.524C-30.861%2c708.515%2c-39.719%2c727.099%2c-31.609%2c744.06C-22.575%2c762.955%2c-2.597%2c775.289%2c18.34%2c774.749' fill='rgba(180%2c 199%2c 255%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1049'%3e%3crect width='720' height='1280' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+p{
+  font-size: 2rem;
+}
+header{
+  font-size: 2rem;
+}
+header div.header-container{
+  /* header fix */
+  position:fixed;
+  margin: 0 0 0 0;
+  z-index: 1;
+
+  width: 99%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+background: #ffffff;
+box-shadow:  25px 25px 50px #cfcfcf,
+             -25px -25px 50px #ffffff;
+}
+header div.click{
+  width: 30vw;
+}
+header div.logo{
+  width: 10vw;
+}
+header div.click ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header div.click ul li{
+  display: inline;
+  padding: 4%;
+  margin:0 5% 0 5%;
+}
+header div.click ul li a{
+  color: red;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+        box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+}
+header div.click ul li a:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+        box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+header div.logo ul{
+ text-align: center;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  position: fixed;
+  top: 17vh;
+}
+main div {
+  margin: 10px;
+  flex-shrink: 0;
+}
+#name-section,#personal-section,#sns-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5% 2% 5%;
+  height: 80vh;
+  transform:
+    rotate3d(.5,-.866,0,15deg)
+    rotate(1deg);
+box-shadow:
+  rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+  rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+border-radius: 10px;
+border: 1px solid;
+border-color:
+  rgb(213, 220, 226)
+  rgb(213, 220, 226)
+  rgb(184, 194, 204);
+transition:
+  transform .4s ease,
+  box-shadow .4s ease;
+}
+main #name-section:hover,#personal-section:hover,#sns-section:hover {
+  transform:
+    rotate3d(0,0,0,0deg)
+    rotate(0deg);
+  }
+  
+  #name-section div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #name-section div h3{
+    font-size: 1.3rem;
+  }
+  #name-section div h1{
+    font-size: 3.5rem;
+  }
+  main #name-section img{
+    border-radius: 50%;
+    display: block;
+    width: auto;
+    height: auto;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 0 2rem 0 2rem;
+  }
+#personal-section ul,#sns-section ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#personal-section ul li{
+  list-style: none;
+  padding: 5vw;
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30vw;
+}
+#personal-section ul li img{
+    float: left;
+    width:  40%;
+    height: 40%;
+    object-fit: cover;
+}
+#personal-section ul li .title,.content{
+  text-align: center;
+  width: 100%;
+}
+#personal-section ul li .title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+#personal-section ul li .content{
+  font-size: 1.5rem;
+}
+#personal-section ul li .content,#sns-section div p{
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+#sns-section ul li{
+  list-style: none;
+}
+#sns-section ul li a{
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  padding: 2rem;
+  margin: 0 5rem 0 5rem;
+}
+.email{
+  background: url(./resources/envelope-solid.svg) no-repeat center center;
+  filter: invert(44%) sepia(58%) saturate(1111%) hue-rotate(156deg) brightness(99%) contrast(103%);
+}
+.github{
+  background: url(./resources/github-brands.svg) no-repeat center center;
+  filter: invert(14%) sepia(95%) saturate(5422%) hue-rotate(279deg) brightness(78%) contrast(114%);
+}
+
+.insta{
+  background: url(./resources/instagram-brands.svg) no-repeat center center;
+  filter: invert(23%) sepia(99%) saturate(2206%) hue-rotate(315deg) brightness(86%) contrast(90%);
+}
+.whatsapp{
+  background: url(./resources/whatsapp-brands.svg) no-repeat center center;
+  filter: invert(84%) sepia(16%) saturate(6520%) hue-rotate(80deg) brightness(85%) contrast(81%);
+}
+#sns-section ul li a:hover{
+  opacity:0.5;
+}
+

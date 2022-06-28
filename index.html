@@ -1,19 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="stylesheet.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>20238008 HomePage</title>
 </head>
 <body>
-  <header></header>
+   <!-- マウスストーカー -->
+   <div class="cursor" id="js-cursor"></div>
+   <!-- ロード画面 -->
+   <!-- <div id="js-loading" class="loading">
+     <div class="loading-panel-wrap">
+       <div class="loading-panel">
+           <span><h3>🥂 Wait a sec... 🥂</h3></span> 
+       </div>
+       <div class="shadow"></div>
+   </div>
+   </div> -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <ul>SAKU</ul>
+      </div>
+      <div class="click">
+        <ul>
+        <li><a href="#name-section">Top</a></li>
+        <li><a href="#personal-section">Info</a></li>
+        <li><a href="#sns-section">SNS</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </header>
   <main>
-    <h1>Name</h1>
-    <h1>Personal Information</h1>
-    <h1>Hobbies</h1>
-    <h1>SNS</h1>
-    <h1>E-mail</h1>
+    <div id="name-section">
+      <div>
+        <h3>My name is...</h3>
+        <h1>Sakura Adachi</h1>
+      </div>
+      <img src="./resources/avatar_image.jpeg" alt="Avatar">
+    </div>
+    <div id="personal-section">
+        <h1>Personal Information</h1>
+        <ul>
+          <li>
+            <img src="./resources/earth-asia-solid.svg" alt="">
+           <p class="title">🇯🇵 Nationality</p>
+           <p class="content">
+            I was born and raised up in Japan, which is one of the most beautiful countries in the world. I've experienced moving 6 times before I was 10 years old. Now, we, our family, settled down in a little suburb city, which is famous for its traditional delicious food and nature.
+          </p>
+          </li>
+          <li>
+            <img src="./resources/school-solid.svg" alt="">
+            <p class="title"> 🎓 Uni</p>
+           <p class="content">
+            Currently, I am absorbing so much knowledge as a student of Saga University. The uni is located in Saga prefecture in Japan, which is usually assumed just a small province, but the people are kind and warm, indeed. With its quiet and preferable atmosphere to study, I learn a ton of new stuff every day.
+          </p>
+          </li>
+
+            <li>
+              <img src="./resources/desktop-solid.svg" alt="">
+              <p class="title">👩🏻‍💻 Major</p>
+              <p class="content">
+                I major in Information Technology, usually called IT, at my Uni. Especially, I am studying Network and Information technology. Sometimes, the study overwhelms me, but consequently, I love my major, and that is the reason I'd love to do this sort of job and learn throughout my entire life.
+              </p>
+            </li>
+
+              <li>
+                <img src="./resources/umbrella-beach-solid.svg" alt="">
+                <p class="title">☕️ Hobbies</p>
+                <p class="content">
+                  Watching movies, Pouring and tasting a cup of coffee, and Enjoying cafe culture make me always happy. That is why I usually do these kinds of distractions when I have tiredness.
+                </p>
+              </li>
+        </ul>
+
+    </div>
+    <div id="sns-section">
+      <div>
+        <h1>SNS</h1>
+        <p>Click and you can contact me.</p>
+      </div>
+      <ul>
+        
+        <li>
+          <a href="mailto:sakupi1101@outlook.jp" class="email">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/saku-1101" class="github">
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://www.instagram.com/sakkupi_._._/" class="insta">
+          </a>
+
+        </li>
+        <li>
+          <a href="https://wa.me/XXXXXXXXXXX" class="whatsapp">
+          </a>
+          
+        </li>
+      </ul>
+      
+    </div>
   </main>
   <footer></footer>
 
